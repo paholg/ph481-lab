@@ -1,0 +1,13 @@
+# Divergence
+
+634.5
+
+# Gaussian:
+f1 = -25 mm, f2 = 200 mm
+distance between: 173 mm
+beam width: 18 mm across room
+
+# Keplarian
+f1 = 25.2 mm, f2 = 200 mm
+distance between = 233 mm
+beam width: 18 mm across room

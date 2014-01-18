@@ -1,0 +1,18 @@
+# lens stated focal length: 100 mm
+# all numbers in mm
+# 5 mm grid
+# d_o   d_i + d_o       grid
+125     616              -19
+150     449              -10
+200     393              -5
+400     527              -2
+600     713              -1
+# floppy paper error
+
+# second measurement at 125: 625
+507      625            -1
+
+# with the extra lens:
+# d_o to neg lens               d_between         d_img (add 31)         grid
+5                               18                454                    3
+
