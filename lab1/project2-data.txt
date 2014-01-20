@@ -12,7 +12,11 @@
 # second measurement at 125: 625
 507      625            -1
 
-# with the extra lens:
-# d_o to neg lens               d_between         d_img (add 31)         grid
-5                               18                454                    3
-
+# with the extra lens; object at 0 mm
+# first lens focal length: -25 mm
+# second lens focal length: 100 mm
+# pos of first lens     pos of second lens   pos of image         grid spacing
+50                      18                   485                  3
+# Michael: I am pretty sure the grid spacing on the last one is supposed
+#  to be negative, but I don't remember whether it actually was. A positive
+#  spacing doesn't make sense both with math and ray tracing drawings
