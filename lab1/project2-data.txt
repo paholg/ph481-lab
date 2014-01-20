@@ -16,4 +16,4 @@
 # first lens focal length: -25 mm
 # second lens focal length: 100 mm
 # pos of first lens     pos of second lens   pos of image         grid spacing
-50                      18                   485                  -3
+50                      180                  485                  -3
