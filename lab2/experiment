@@ -1,0 +1,42 @@
+Experiment II.1
+--------------------------------------------------------------------------------
+Brewster's Angle
+Rotator
+Calibration: The piece of plastic at 90 deg is said to be at 90 deg
+
+Brewser's angle (no reflection) is at 124.5 deg (55.5 deg)
+Light polarized at is at 132 degrees
+
+Experimental (calculated) index of refraction: 1.455
+
+Notes:
+- had to make sure laser went through glass at 90 degrees
+- used an iterative process, adjusting polarizor and angle one after the other until there was no reflection off of the glass
+
+
+Polarizer at 140 degrees (P polarized light)
+
+angle of glass rotator (degrees)      voltage reading (mV)
+110                                   820
+120                                   860
+130                                   860
+140                                   840
+150                                   820
+160                                   820
+170                                   800
+180                                   800
+
+Notes:
+- ran out of time for S polarization and reflected beam measurements
+
+Experiment II.3
+--------------------------------------------------------------------------------
+Block of glass set up at 45 degrees to laser.
+Transmitted light travels 21" past center of block. Block is 18 mm thick.
+Deflected 6 mm horizontally.
+
+
+Experiment II.4
+--------------------------------------------------------------------------------
+
+21, 73
