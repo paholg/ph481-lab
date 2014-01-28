@@ -14,9 +14,7 @@ Notes:
 - used an iterative process, adjusting polarizor and angle one after
       the other until there was no reflection off of the glass
 
-
 Polarizer at 140 degrees (S polarized light)
-
 angle of glass rotator (degrees)      voltage reading (mV)
 110                                   820
 120                                   860
@@ -37,12 +35,10 @@ Transmitted light travels 21" past center of block.
 Block is 18 mm thick.
 Beam deflected 6 mm horizontally.
 
-
 Experiment II.4 (in mm; 632.8 nm light)
 ----------------------------------------------------------------------
 
 246, 406, 1264
-
 
 Experiment II.2 -- 10 mV noise (P polarized light)
 ----------------------------------------------------------------------
