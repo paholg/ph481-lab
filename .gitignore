@@ -9,3 +9,5 @@ auto
 *.bib
 *.djvu
 HW2
+*.tex#
+*.gz
