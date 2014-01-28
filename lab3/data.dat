@@ -8,3 +8,7 @@ Start(mm)      Stop(mm)       Rings
 .2694            .2765        20
 .2765            .2826        20
 
+-- Verifying Velocity - stage moved at 0.01 mm/s
+
+Can see green light bands!
+
