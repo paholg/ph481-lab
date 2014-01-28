@@ -11,3 +11,6 @@ auto
 HW2
 *.tex#
 *.gz
+*.py
+*.asy
+*.eps
