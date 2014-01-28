@@ -1,5 +1,5 @@
 Experiment II.1
---------------------------------------------------------------------------------
+----------------------------------------------------------------------
 Brewster's Angle
 Rotator
 Calibration: The piece of plastic at 90 deg is said to be at 90 deg
@@ -31,20 +31,21 @@ Notes:
 - ran out of time for S polarization and reflected beam measurements
 
 Experiment II.3
---------------------------------------------------------------------------------
+----------------------------------------------------------------------
 Block of glass set up at 45 degrees to laser.
-Transmitted light travels 21" past center of block. Block is 18 mm thick.
-Deflected 6 mm horizontally.
+Transmitted light travels 21" past center of block.
+Block is 18 mm thick.
+Beam deflected 6 mm horizontally.
 
 
 Experiment II.4 (in mm; 632.8 nm light)
---------------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 246, 406, 1264
 
 
 Experiment II.2 -- 10 mV noise (P polarized light)
---------------------------------------------------------------------------------
+----------------------------------------------------------------------
 angle   V
 123.5   2.24
 130     2.22
