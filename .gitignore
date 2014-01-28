@@ -1,1 +1,9 @@
 *~
+auto
+*.aux
+*.log
+*.out
+*.pdf
+*.pre
+*.tex
+*.bib
