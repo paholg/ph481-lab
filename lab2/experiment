@@ -11,7 +11,8 @@ Experimental (calculated) index of refraction: 1.455
 
 Notes:
 - had to make sure laser went through glass at 90 degrees
-- used an iterative process, adjusting polarizor and angle one after the other until there was no reflection off of the glass
+- used an iterative process, adjusting polarizor and angle one after
+      the other until there was no reflection off of the glass
 
 
 Polarizer at 140 degrees (S polarized light)
