@@ -1,6 +1,6 @@
-Experiment III.1 - Michelson Interferometer
---------------------------------------------------------------------------------
-Start(mm)      Stop(mm)       Rings
+# Experiment III.1 - Michelson Interferometer
+# ------------------------------------------------------------------------------
+# Start(mm)      Stop(mm)     Rings
 .2420            .2486        20
 .2486            .2546        20
 .2546            .2613        21
@@ -8,7 +8,7 @@ Start(mm)      Stop(mm)       Rings
 .2694            .2765        20
 .2765            .2826        20
 
--- Verifying Velocity - stage moved at 0.01 mm/s
+# -- Verifying Velocity - stage moved at 0.01 mm/s
 
-Can see green light bands!
+# Can see green light bands!
 
