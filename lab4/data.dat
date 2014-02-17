@@ -1,0 +1,7 @@
+# Sodium Lamp
+d1      d2      N
+.2140   .2019   40
+.2017   .1888   40
+
+# Look up distances for Mercury, Sodium doublets, calculate d's and N's for both doublets
+# USe 3 for the finesse (from previous labs) (might not need this)
