@@ -1,0 +1,17 @@
+# Distance from slit to screen: 25"
+
+# Single slit diffraction - distance from center to dark fringes
+# smallest slit
+# fringe      distance (mm)
+  1           7/2
+  2           13.5/2
+  3           20.5/2
+  4           28/2
+
+# Double slit interference - distance from center to bright fringes
+# second largest slit spacing
+# fringe      distance (mm)
+  1           11/2
+  2           19/2
+  3           26.5/2
+  4           34/2
