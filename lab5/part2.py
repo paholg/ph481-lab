@@ -25,7 +25,6 @@ multi_fringes = array([
   [4, 23.5/2]
 ])
 
-
 b_tot = 0
 for m, d in single_fringes:
   theta = arctan(d/L)
@@ -59,7 +58,7 @@ d = (90 + 90.5)/2 # cm
 theta = arctan(d/L)
 a = 1*lam/sin(theta)
 
-print('a for diffraction grating:', a, 'mm')
+print('\na for diffraction grating:', a, 'mm')
 
 # when the diffraction grating is rotated, the outer dots move away from the
 # center, and change from dots to vertical narrow elipses / crescents
@@ -84,7 +83,6 @@ lam_ir = a*sin(theta_ir)/1*1000000 # nm
 
 print('\nwavelength uv:', lam_uv, 'nm')
 print('wavelength ir:', lam_ir, 'nm')
-
 
 # part 3
 # distance from cd to wall

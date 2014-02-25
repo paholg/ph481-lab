@@ -27,8 +27,6 @@ double_fringes = array([
   [5, 10.5/2]
 ])
 
-
-
 b_tot = 0
 for m, d in single_fringes:
   theta = arctan(d/L)
