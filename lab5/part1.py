@@ -8,7 +8,9 @@ lam = 633e-6 # mm
 L = 23 # inches
 L *= 25.4 # converting to mm
 
-# distance from center to dark fringes for the smallest single slit
+# Distance from center to dark fringes for the smallest single slit. Distances
+# were actaully meaasured from dark fringe to dark fringe, for greatest
+# accuracy, and so are divided by 2.
 single_fringes = array([
   #m  distance (mm)
   [1, 7/2],
@@ -17,7 +19,8 @@ single_fringes = array([
   [4, 28/2]
 ])
 
-# distance from center to bright fringes for the second smallest double slit
+# Distance from center to bright fringes for the second smallest double
+# slit. Again, distances were measured from fringe to fringe and divided by 2.
 double_fringes = array([
   #m  distance (mm)
   [1, 1],
@@ -27,28 +30,22 @@ double_fringes = array([
   [5, 10.5/2]
 ])
 
-b_tot = 0
-for m, d in single_fringes:
+b = zeros(len(single_fringes))
+for (i, (m, d)) in enumerate(single_fringes):
   theta = arctan(d/L)
-  b = m*lam/sin(theta)
-  b_tot += b
-  print('b:', b)
-
+  b[i] = m*lam/sin(theta)
+  print('b:', b[i])
 print()
 
-a_tot = 0
-for m, d in double_fringes:
+a = zeros(len(double_fringes))
+for (i, (m, d)) in enumerate(double_fringes):
   theta = arctan(d/L)
-  a = m*lam/sin(theta)
-  a_tot += a
-  print('a:', a)
+  a[i] = m*lam/sin(theta)
+  print('a:', a[i])
 
-b_avg = b_tot/len(single_fringes)
-a_avg = a_tot/len(double_fringes)
-
-print('\na_avg:', a_avg)
-print('b_avg:', b_avg)
-print('a/b:', a_avg/b_avg)
+print('\na_avg: %g, std_dev: %g' %(a.mean(), a.std()))
+print('b_avg: %g, std_dev: %g' %(b.mean(), b.std()))
+print('a/b:', a.mean()/b.mean())
 
 # directly measured slit spacing:
 # focal length:
