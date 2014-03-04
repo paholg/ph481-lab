@@ -25,28 +25,22 @@ multi_fringes = array([
   [4, 23.5/2]
 ])
 
-b_tot = 0
-for m, d in single_fringes:
+b = zeros(len(single_fringes))
+for (i, (m, d)) in enumerate(single_fringes):
   theta = arctan(d/L)
-  b = m*lam/sin(theta)
-  b_tot += b
-  print('b:', b)
-
+  b[i] = m*lam/sin(theta)
+  print('b:', b[i])
 print()
 
-a_tot = 0
-for m, d in multi_fringes:
+a = zeros(len(multi_fringes))
+for (i, (m, d)) in enumerate(multi_fringes):
   theta = arctan(d/L)
-  a = m*lam/sin(theta)
-  a_tot += a
-  print('a:', a)
+  a[i] = m*lam/sin(theta)
+  print('a:', a[i])
 
-b_avg = b_tot/len(single_fringes)
-a_avg = a_tot/len(multi_fringes)
-
-print('\na_avg:', a_avg, 'mm')
-print('b_avg:', b_avg, 'mm')
-print('a/b:', a_avg/b_avg)
+print('\na_avg: %g, std_dev: %g' %(a.mean(), a.std()))
+print('b_avg: %g, std_dev: %g' %(b.mean(), b.std()))
+print('a/b:', a.mean()/b.mean())
 
 # diffraction grating
 # distance from grating to wall
