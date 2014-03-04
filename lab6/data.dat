@@ -1,17 +1,21 @@
-# camera model: Imagingsource DMK 21AU04
-# camera pixel size: 5.6 x 5.6 sq. microns
+part 1
 
-# Length from aperture to camera
-x = 98.5 # cm
+camera model: Imagingsource DMK 21AU04
+camera pixel size: 5.6 x 5.6 sq. microns
+camera resolution: 640x480 px
+laptop resolution is 1366x768 px
+length from aperture to camera: 98.5 cm
 
 
-# Part 2
-# Aperture at 75 cm
-Minima for lens at:
+part 2
+aperture at 75 cm
+
+minima for lens at:
 1      56.5
 2      65.2
 3      67.9
 4      69.2
 5      70.0
 6      70.5
-# beyond this, branches to have 2 or more holes in teh middle
+
+beyond this, branches to have 2 or more holes in the middle
