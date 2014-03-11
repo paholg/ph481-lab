@@ -1,0 +1,41 @@
+# part 1
+# angle (degrees) voltage (mV)
+0     1.8
+2     2.8
+4     6.4
+6     11.5
+8     19.5
+10    31.8
+20    117
+30    239
+40    386
+50    547
+60    691
+70    830
+80    900
+85    920
+90    920
+
+# part 2
+# p polarized light at 136 degrees on polarizer
+# verified that light reflected off of glass slide was s polarized
+#   reflected light does not get through polarizer at 136 degrees
+
+# part 3
+# zero on probe at zero angle of incidence
+# fringe (count)  angle (degrees)
+1      9.9
+2      10.8
+3      11.6
+4      12.3
+5      13
+6      13.7
+7      14.3
+8      14.9
+9      15.5
+10     16.0
+11     16.6
+12     17.1
+
+# part 4
+
