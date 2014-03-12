@@ -44,7 +44,8 @@ volume = water_volume + sugar_mass / sugar_density
 
 a = orient / ( d_water * sugar_mass / volume )
 
-print('Specific rotation for 632.8 nm light:','%.1f'%mean(a))
+lam2 = 589
+print('Specific rotation for',lam,'nm light:','%.1f'%mean(a))
 print('Varation:','%.1f'%std(a))
-print('Specific rotation for 589 nm light:','%.1f'%(mean(a)*632.8/589))
+print('Specific rotation for',lam2,'nm light:','%.1f'%(mean(a)*lam/lam2))
 
