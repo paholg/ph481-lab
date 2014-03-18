@@ -3,7 +3,7 @@ from pylab import *
 
 # part 1
 
-# minimized intensity of reflected beam (zero intensity) by rotatin the QWP
+# minimized intensity of reflected beam (zero intensity) by rotating the QWP
 # verified circular polarization by placing polaroid after QWP
 #   - beam intensity was independent of polaroid angle
 # found two positions each for circular polarization
@@ -28,7 +28,7 @@ n_water = 1.33 # index of refraction of water
 d_water = 6.4e-1 # dm; inner diameter of beaker
 sugar_initial_mass = 36.7 # g
 
-# amound ot sugar we add to water for each measureent
+# amount of sugar we add to water for each measureent
 added_sugar = array([0, 20.2, 17.7, 20.1]) # g
 # relative orientation of polaroid for zero transmission
 orient = array([188, 190, 192, 193]) - 180 # degrees
